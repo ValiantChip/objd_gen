@@ -3,6 +3,7 @@ description: A package of code generators for objD Annotations
 version: 0.0.4
 homepage: https://objd.stevertus.com
 documentation: https://objd.stevertus.com
+publish_to: none
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -13,6 +14,8 @@ dependencies:
   analyzer: ^5.2.0
   source_gen: ^1.3.2
   objd:
-    git: git@github.com:ValiantChip/objD.git
+    git: 
+      url: git@github.com:ValiantChip/objD.git
+      ref: master
 dev_dependencies:
   lints: ^1.0.1
